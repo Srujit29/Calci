@@ -3,6 +3,7 @@ import os
 import sys
 sys.path.append(os.environ['WORKSPACE'])
 
+print("PATH:", os.environ['WORKSPACE'])
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mainproject.settings")
