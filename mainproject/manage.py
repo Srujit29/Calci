@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import os
 import sys
-sys.path.append(os.environ['WORKSPACE'])
 
 
 if __name__ == "__main__":
